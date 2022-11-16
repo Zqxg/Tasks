@@ -66,8 +66,9 @@ git pull origin master
 3. 然后使用git diff对比本地库和远程库有什么不一样的地方
 ![冲突问题解决4.png (751×280) (raw.githubusercontent.com)](https://raw.githubusercontent.com/Zqxg/Tasks/main/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E5%9B%BE%E7%89%87/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B34.png)
 
-4.可以看到本地和github上，都增加了一段文字。我手动打开这个文件，然后对里面的文字进行修改，保存。
+4. 可以看到本地和github上，都增加了一段文字。我手动打开这个文件，然后对里面的文字进行修改，保存。
 ![冲突问题解决5.png (544×388) (raw.githubusercontent.com)](https://raw.githubusercontent.com/Zqxg/Tasks/main/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E5%9B%BE%E7%89%87/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B35.png)
+
 5. 再次提交文件,提交成功！
 ![冲突问题解决6.png (853×367) (raw.githubusercontent.com)](https://raw.githubusercontent.com/Zqxg/Tasks/main/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E5%9B%BE%E7%89%87/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B36.png)
 
