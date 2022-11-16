@@ -51,6 +51,7 @@ git pull origin master
 >这个问题是因为远程库与本地库不一致造成的
 
 ![冲突问题1](https://raw.githubusercontent.com/Zqxg/Tasks/main/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E5%9B%BE%E7%89%87/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%981.png)
+
 1. 使用git status 查看冲突
 ![冲突问题解决2](https://raw.githubusercontent.com/Zqxg/Tasks/main/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E5%9B%BE%E7%89%87/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B32.png)
 
