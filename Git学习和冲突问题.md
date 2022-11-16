@@ -1,16 +1,23 @@
 # GIT学习问题
 
 ## 学习内容的目录
-
+1. [本地仓库的创建](#1)
+2. [上传远程仓库](#2)
+3. [获取远程仓库最新版本](#3)
+4. [冲突问题](#4)
+5. [解决冲突问题时遇到的情况](#5)
 
 ## 学习内容
 <p id="1"></p>
+
 ### 一、本地仓库的创建
 1. 在创建一个新的本地仓库
 使用**git init**在工作区创建一个`.git`文件，实现本地仓库的创建。
 
 2. 从github上克隆一个仓库
 使用**git clone**存储库的地址，将github上的库下载到本地。
+
+<p id="2"></p>
 
 ### 二、上传远程仓库
 1. 添加文件git add
@@ -19,6 +26,8 @@
 4. 上传代码`git push -u origin master`
 >如果再次上传的仓库是已关联的仓库，可以直接跳过第三步。
 >指定origin为默认主机后再次上传代码直接git push就可以了
+
+<p id="3"></p>
 
 ### 三、获取远程仓库最新版本
 1. **git fetch** 
@@ -34,6 +43,8 @@ git merge tmp
 git pull origin master
 ```
 >不管用fetch还是pull，做之前都要在本地仓库做一次git commit，确保，本地仓库和工作目录及缓存一致
+
+<p id="4"></p>
 
 ### 四、冲突问题
 问题：github上新建一个文件，将文件拉到本地，在github和本地做不同修改，上传本地文件到github上，发生冲突。
@@ -59,6 +70,8 @@ git pull origin master
 ![冲突问题解决5.png (544×388) (raw.githubusercontent.com)](https://raw.githubusercontent.com/Zqxg/Tasks/main/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E5%9B%BE%E7%89%87/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B35.png)
 5. 再次提交文件,提交成功！
 ![冲突问题解决6.png (853×367) (raw.githubusercontent.com)](https://raw.githubusercontent.com/Zqxg/Tasks/main/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E5%9B%BE%E7%89%87/%E5%86%B2%E7%AA%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B36.png)
+
+<p id="5"></p>
 
 ### 五、解决冲突问题时遇到的情况
 
