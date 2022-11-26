@@ -1,0 +1,136 @@
+/*div 的宽度换算为 px 为 4rem*16px = 64px*/
+
+/*导航栏*/
+.nav {
+	/*导航栏固定在顶部*/
+	position: fixed;
+	/*导航栏文字水平居中对齐*/
+	text-align: center;
+	/*导航栏居中对齐*/
+	margin:0px;
+	padding:0px;
+	left: 2%;
+
+	height: auto;
+	width: 95%; 
+	
+	/*样式设置*/
+	
+	border-radius: 0.625rem;
+	background-color:#ffb226;
+	
+	/*修改透明度*/
+	opacity: 0.9;
+	
+	/*将导航栏移到背景图片上方*/
+	z-index:1;
+	
+}
+
+.nav ul li {
+	/*修改导航栏浮动样式，使其在一行排布*/
+	float:left;
+}
+.nav ul {
+	/*设置导航栏无序列表的样式为无*/
+	list-style:none;
+	
+	margin:0rem;
+	padding:0rem;
+}
+
+.nav li {
+	/*导航栏文字竖直居中对齐*/
+	height: 2.5rem;
+	line-height:2.5rem;
+	
+	/*样式设置*/
+	width:20%;
+	font-size: 1.75vw;
+	color:white;
+	
+	/*文字不可以选择复制*/
+	user-select: none;
+}
+
+#newthread {
+	/*单独设置字体颜色*/
+	color:lightgray ;
+}
+
+.nav li:hover{
+	/*鼠标悬停导航栏，背景颜色和文字颜色修改*/
+	background-color: darkorange;
+	border-radius: 1rem;
+	color: lightgray;
+}
+
+#newthread:hover{
+	/*单独设置鼠标悬停字体颜色*/
+	color: white;
+}
+
+/*下拉菜单栏，弹出群聊二维码*/
+.nav .dropdown{
+	position: absolute;
+	top:2.5rem;
+	
+	border:0.3125rem solid #ffb226 ;
+	border-radius: 0.625rem;
+	width: 19%;
+	
+	
+	display: none;
+}
+
+.itd{
+	transition: all 1s; 
+}
+
+.itd:hover .dropdown{
+	display: block;
+}
+
+/*回到顶部按钮*/
+.up{
+	width: 4%;
+	height: 7%;
+	
+	margin: 0rem;
+	padding: 0rem;
+	background-color: white;
+	position: fixed;
+	bottom: 3.125rem;
+	right:1.875rem;
+	
+	/*图标溢出隐藏，实现图标的转变*/
+	overflow: hidden
+}
+
+/*图标*/
+.up i{
+	/*相关属性设置*/
+	font-size: 2.5vw;
+	border: 0.2rem solid black;
+	border-radius: 0.3125rem;
+	
+	position: relative;
+	transition: all 0.8s;
+}
+
+#up1 {
+	height: 85%;
+	width: 85%;
+}
+
+#up2 {
+	height: 85%;
+	width: 85%;
+	color:orangered;
+}
+
+
+.up:hover i {
+	/*将图标上移*/
+	transform: translate(0,-100%);
+}

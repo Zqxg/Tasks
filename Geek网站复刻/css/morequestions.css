@@ -1,0 +1,241 @@
+.moreQuestions {
+	/*基本属性*/
+	margin: 0px;
+	padding:0px;
+	border: 1.8vh solid #6495ed;
+	border-radius: 20px;
+	width: 80%;
+	height:auto;
+	background:url("../img/background_QA.png") ;
+	
+	/*位置*/
+	position: relative;
+	top:30rem;
+	left:120px;
+	
+	 overflow: hidden;
+	 
+	
+}
+
+
+.moreQuestions h1{
+	position:relative;
+	left:30%;
+	
+	z-index: 1;
+	font-weight:400;
+	font-size:7vh;
+	user-select: none;
+}
+
+.QA{
+	position: relative;
+	margin: 8%;
+	top: 2%;
+	left: 17%;
+	width: 70%x;
+	
+	font-size: 3.5vh;
+	user-select: none;
+}
+
+.QA1{
+	position: relative;
+}
+
+.QA1 .question1{
+	position: relative;
+	transition: all 0.5s;
+}
+
+.question1:hover{
+	color: gray;
+	transform: scale(1.1);
+}
+
+.QA1 .answer1{
+	position: relative;
+	left:2%;
+	
+	margin: 0px;
+	padding: 1%;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	width: 50%;
+	
+	/*导航栏文字竖直居中对齐*/
+	
+	color: white;
+	font-size: 2.5vh;
+	/*初始隐藏*/
+	display:none;
+}
+
+.QA2 .question2{
+	position: relative;
+	transition: all 0.5s;
+}
+
+.question2:hover{
+	color: gray;
+	transform: scale(1.1);
+}
+
+.QA2 .answer2{
+	position: relative;
+	left:2%;
+	
+	margin: 0px;
+	padding: 1%;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	width: 50%;
+	
+	/*导航栏文字竖直居中对齐*/
+	
+	color: white;
+	font-size: 2.5vh;
+	/*初始隐藏*/
+	display:none;
+}
+
+.QA3 .question3{
+	position: relative;
+	transition: all 0.5s;
+}
+
+.question3:hover{
+	color: gray;
+	transform: scale(1.1);
+}
+
+.QA3 .answer3{
+	position: relative;
+	left:2%;
+	
+	margin: 0px;
+	padding: 1%;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	width: 50%;
+	
+	/*导航栏文字竖直居中对齐*/
+	
+	color: white;
+	font-size: 2.5vh;
+	/*初始隐藏*/
+	display:none;
+}
+
+.QA4 .question4{
+	position: relative;
+	transition: all 0.5s;
+}
+
+.question4:hover{
+	color: gray;
+	transform: scale(1.1);
+}
+
+.QA4 .answer4{
+	position: relative;
+	left:2%;
+	
+	margin: 0px;
+	padding: 1%;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	width: 50%;
+	
+	/*导航栏文字竖直居中对齐*/
+	
+	color: white;
+	font-size: 2.5vh;
+	/*初始隐藏*/
+	display:none;
+}
+
+.QA5 .question5{
+	position: relative;
+	transition: all 0.5s;
+}
+
+.question5:hover{
+	color: gray;
+	transform: scale(1.1);
+}
+
+.QA5 .answer5{
+	position: relative;
+	left:2%;
+	
+	margin: 0px;
+	padding: 1%;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	width: 50%;
+	
+	/*导航栏文字竖直居中对齐*/
+	
+	color: white;
+	font-size: 2.5vh;
+	/*初始隐藏*/
+	display:none;
+}
+
+.QA6 .question6{
+	position: relative;
+	transition: all 0.5s;
+}
+
+.question6:hover{
+	color: gray;
+	transform: scale(1.1);
+}
+
+.QA6 .answer6{
+	position: relative;
+	left:2%;
+	
+	margin: 0px;
+	padding: 1%;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	width: 50%;
+	
+	/*导航栏文字竖直居中对齐*/
+	
+	color: white;
+	font-size: 2.5vh;
+	/*初始隐藏*/
+	display:none;
+}
+
+.QA7 .question7{
+	position: relative;
+	transition: all 0.5s;
+}
+
+.question7:hover{
+	color: gray;
+	transform: scale(1.1);
+}
+
+.QA7 .answer7{
+	position: relative;
+	left:2%;
+	
+	margin: 0px;
+	padding: 1%;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	width: 50%;
+	
+	/*导航栏文字竖直居中对齐*/
+	
+	color: white;
+	font-size: 2.5vh;
+	/*初始隐藏*/
+	display:none;
+}

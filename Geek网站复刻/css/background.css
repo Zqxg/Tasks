@@ -1,0 +1,58 @@
+.background{
+	/*背景图片自适应大小*/
+	height: auto;
+	width: auto; 
+	/*位置*/
+	position: relative;
+	top:3.125rem;
+	z-index:0;
+}
+.background_Homepage {
+	width:100%;
+}
+
+.decoration_Geek {
+	/*图片大小*/
+	width:35%;
+	display: block;
+	margin: auto;
+	
+	/*绝对位置设定*/
+	position:absolute;
+	top: 15%;
+	left: 32%;
+	
+	/*放大过渡动画*/
+	transition: all 0.8s;
+}
+.decoration_Geek:hover{
+	/*鼠标悬停放大图片1.4倍*/
+	transform:scale(1.4);
+}
+
+.background1 {
+	/*相对位置*/
+	position: relative;
+	top:30px;
+}
+
+.decoration_Transition{
+	/*图片大小*/
+	width:100%
+}
+
+.background1 h1{
+	/*样式设置*/
+	width: 100%;
+	height: 20%;
+	color: darkblue;
+	font-size: 7vh;
+	
+	/*文字不可以选择复制*/
+	user-select: none;
+	
+	/*绝对位置设定*/
+	position:absolute;
+	top:20%;
+	left: 35%;
+}

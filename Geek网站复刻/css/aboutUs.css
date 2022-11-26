@@ -1,0 +1,189 @@
+.aboutUs{
+	position: relative;
+	top:20rem;
+	
+	/*导航栏居中对齐*/
+	margin:0%;
+	padding:0%;
+	left: 11%;
+	
+	border:1.6vh solid gray;
+	border-radius: 20px;
+	width: 80%;
+	height:auto;
+	
+	background-color: #fffdf5;
+	
+	
+}
+
+.aboutUs img{
+	width: 14%;
+}
+
+.edge1{
+	/*沿Y轴对称*/
+	transform: rotateY(180deg);
+	
+	/*确定位置*/
+	position: absolute;
+	top:-3%;
+	left:-3%;
+	
+}
+
+.edge2{
+	/*确定位置*/
+	position: absolute;
+	top:-3%;
+	right:-3%;
+}
+
+.edge3{
+	/*旋转180度*/
+	transform: rotate(180deg);
+	
+	/*确定位置*/
+	position: absolute;
+	bottom:0%;
+	left:-3%;
+}
+
+.edge4{
+	/*沿x轴旋转180*/
+	transform:rotateX(180deg);
+	
+	/*确定位置*/
+	position: absolute;
+	bottom:0%;
+	right:-3%;
+}
+
+.butterfly{
+	/*确定位置*/
+	position: absolute;
+	bottom:3%;
+	right:3%;
+	
+	/*设置图层最高*/
+	z-index: 1;
+	
+	transition: all 0.5s;
+}
+
+.butterfly:hover {
+	bottom:2%;
+}
+
+.aboutUs h1{
+	font-size: 7vh;
+	font-weight: 400;
+	color: gray;
+	
+	/*文本居中*/
+	text-align: center;
+	
+	/*文字不可以选择复制*/
+	user-select: none;
+}
+
+.curiosity{
+	/*位置*/
+	position: absolute;
+	bottom: 6%;
+	right: 1%;
+	
+	/*文本居中*/
+	text-align: center;
+	
+	color: snow;
+	font-size: 2vh;
+	
+	width: 10%;
+	background-color: black;
+	/*修改透明度*/
+	opacity: 0.9;
+	/*图层位于蝴蝶之上*/
+	z-index: 2;
+	
+	/*一开始隐藏，鼠标靠近后出现*/
+	display: none;
+	
+}
+
+.butter:hover .curiosity{
+	display: block;
+}
+
+.region{
+	margin: 10%;
+	display: flex;
+	
+}
+
+.region img{
+	position: relative;
+	left: 15%;
+	top:10%;
+	width:65%;
+	height:auto;
+}
+
+.region p{
+	margin: 10%;
+	position: relative;
+	top:1.2rem;
+	height: auto;
+	font-size:2.5vh;
+}
+
+.region1{
+	position: relative;
+	left: 5%;
+	margin:0px;
+	padding:0.2rem;
+	border: 1vh solid purple;
+	border-radius: 1.25rem;
+	
+	width: 18%;
+	height:auto;
+	transition: all 0.5s;	
+}
+
+.region1:hover{
+	transform: scale(1.1);
+}
+
+.region2{
+	position: relative;
+	left: 20%;
+	margin:0px;
+	padding:0.2rem;
+	border: 1vh solid purple;
+	border-radius: 20px;
+	
+	width: 18%;
+	height:auto;
+	transition: all 0.5s;	
+}
+
+.region2:hover{
+	transform: scale(1.1);
+}
+
+.region3{
+	position: relative;
+	left: 35%;
+	margin:0px;
+	padding:0.2rem;
+	border: 1vh solid purple;
+	border-radius: 20px;
+	
+	width: 18%;
+	height:auto;
+	transition: all 0.8s;	
+}
+
+.region3:hover{
+	transform: scale(1.1);
+}

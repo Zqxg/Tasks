@@ -1,0 +1,186 @@
+.brand {
+	position: relative;
+	left: 20%;
+	width: 60%;
+}
+
+.brand p{
+	font-size: 3vh;
+}
+
+.brand h1{
+	font-size: 6vh;
+}
+
+.brand img{
+	margin:2%;
+	width:35%;
+	height: 70%;
+	
+	/*过渡动画*/
+	transition: all 1s;
+}
+
+.block1 {
+	/*样式设置*/
+
+	padding:2%;
+	border: 4px solid gray;
+	border-radius: 20px;
+	width:100%;
+	height: auto;
+	
+	/*位置设置*/
+	position: relative;
+	top:5rem;
+	
+	/*弹性盒子布局使图片和文字左右布局*/
+	display: flex;
+	/*过渡动画*/
+	transition: all 1s;
+	
+	/*盒子阴影*/
+	box-shadow: 0px 0px 5px 1px gray;
+}
+
+.block1:hover{
+	transform:scale(1.1);
+}
+
+.block1 .text1{
+	width: 60%;
+	height: auto;
+}
+
+
+.block1 h2{
+	font-size: 5vh;
+	color: #6495ed;
+}
+
+.block1 img:hover{
+	/*图片逆时针旋转30度*/
+	transform: rotate(-30deg)
+}
+
+.block2 {
+	/*样式设置*/
+	padding:2%;
+	border: 4px solid gray;
+	border-radius: 20px;
+	width:100%;
+	height: auto;
+	
+	/*位置设置*/
+	position: relative;
+	top:8rem;
+	
+	/*弹性盒子布局使图片和文字左右布局*/
+	display: flex;
+	transition: all 1s;
+	
+	/*盒子阴影*/
+	box-shadow: 0px 0px 5px 1px gray;
+}
+
+.block2:hover{
+	transform:scale(1.1);
+}
+
+.block2 img:hover{
+	/*图片逆时针旋转30度*/
+	transform: rotate(20deg)
+}
+
+.block2 .text2{
+	width: 60%;
+	height: auto;
+}
+
+.block2 h2{
+	font-size: 4.5vh;
+	color: #ee82ee;
+}
+
+.block3 {
+	/*样式设置*/
+	padding:2%;
+	border: 4px solid gray;
+	border-radius: 20px;
+	width:100%;
+	height: auto;
+	
+	/*位置设置*/
+	position: relative;
+	top:11rem;
+	
+	/*弹性盒子布局使图片和文字左右布局*/
+	display: flex;
+	
+	transition: all 1s;
+	
+	/*盒子阴影*/
+	box-shadow: 0px 0px 5px 1px gray;
+}
+
+.block3:hover{
+	transform:scale(1.1);
+}
+
+.block3 .text3{
+	width: 60%;
+	height: auto;
+	bottom: 0%;
+}
+
+.block3 h2{
+	font-size: 4.5vh;
+	color:#40e0d0 ;
+}
+
+
+.block3 img:hover{
+	/*图片逆时针旋转30度*/
+	transform: rotate(-30deg)
+}
+
+.block4 {
+	
+	/*样式设置*/
+	padding:2%;
+	border: 4px solid gray;
+	border-radius: 20px;
+	width:100%;
+	height: auto;
+	
+	/*位置设置*/
+	position: relative;
+	top:14rem;
+	
+	/*弹性盒子布局使图片和文字左右布局*/
+	display: flex;
+	
+	transition: all 1s;
+	
+	/*盒子阴影*/
+	box-shadow: 0px 0px 5px 1px gray;
+}
+
+.block4:hover{
+	transform:scale(1.1);
+}
+
+.block4 img:hover{
+	/*图片逆时针旋转30度*/
+	transform: rotate(20deg)
+}
+
+.block4 .text4{
+	width: 60%;
+	height: auto;
+}
+
+.block4 h2{
+	font-size: 4.5vh;
+	color: #ffb6c1;
+}
