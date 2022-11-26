@@ -94,14 +94,14 @@
 /*回到顶部按钮*/
 .up{
 	width: 4%;
-	height: 7%;
+	height: 6%;
 	
 	margin: 0rem;
 	padding: 0rem;
 	background-color: white;
 	position: fixed;
-	bottom: 3.125rem;
-	right:1.875rem;
+	bottom: 4vw;
+	right:3vw;
 	
 	/*图标溢出隐藏，实现图标的转变*/
 	overflow: hidden
@@ -111,7 +111,7 @@
 .up i{
 	/*相关属性设置*/
 	font-size: 2.5vw;
-	border: 0.2rem solid black;
+	border: 0.25vw solid black;
 	border-radius: 0.3125rem;
 	
 	position: relative;

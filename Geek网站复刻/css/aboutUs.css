@@ -7,7 +7,7 @@
 	padding:0%;
 	left: 11%;
 	
-	border:1.6vh solid gray;
+	border:0.8vw solid gray;
 	border-radius: 20px;
 	width: 80%;
 	height:auto;
@@ -76,7 +76,7 @@
 }
 
 .aboutUs h1{
-	font-size: 7vh;
+	font-size: 4.5vw;
 	font-weight: 400;
 	color: gray;
 	
@@ -124,7 +124,7 @@
 .region img{
 	position: relative;
 	left: 15%;
-	top:10%;
+	top:5%;
 	width:65%;
 	height:auto;
 }
@@ -132,20 +132,20 @@
 .region p{
 	margin: 10%;
 	position: relative;
-	top:1.2rem;
+	top:1.2vw;
 	height: auto;
-	font-size:2.5vh;
+	font-size:1.2vw;
 }
 
 .region1{
 	position: relative;
 	left: 5%;
 	margin:0px;
-	padding:0.2rem;
-	border: 1vh solid purple;
+	padding:0.2vw;
+	border: 0.5vw solid purple;
 	border-radius: 1.25rem;
 	
-	width: 18%;
+	width: 20%;
 	height:auto;
 	transition: all 0.5s;	
 }
@@ -158,11 +158,11 @@
 	position: relative;
 	left: 20%;
 	margin:0px;
-	padding:0.2rem;
-	border: 1vh solid purple;
+	padding:0.2vw;
+	border: 0.5vw solid purple;
 	border-radius: 20px;
 	
-	width: 18%;
+	width: 20%;
 	height:auto;
 	transition: all 0.5s;	
 }
@@ -175,11 +175,11 @@
 	position: relative;
 	left: 35%;
 	margin:0px;
-	padding:0.2rem;
-	border: 1vh solid purple;
+	padding:0.2vw;
+	border: 0.5vw solid purple;
 	border-radius: 20px;
 	
-	width: 18%;
+	width: 20%;
 	height:auto;
 	transition: all 0.8s;	
 }

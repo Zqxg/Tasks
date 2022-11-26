@@ -5,11 +5,11 @@
 }
 
 .brand p{
-	font-size: 3vh;
+	font-size: 1.5vw;
 }
 
 .brand h1{
-	font-size: 6vh;
+	font-size: 2.5vw;
 }
 
 .brand img{
@@ -25,7 +25,7 @@
 	/*样式设置*/
 
 	padding:2%;
-	border: 4px solid gray;
+	border: 0.5vw solid gray;
 	border-radius: 20px;
 	width:100%;
 	height: auto;
@@ -54,7 +54,7 @@
 
 
 .block1 h2{
-	font-size: 5vh;
+	font-size: 2.2vw;
 	color: #6495ed;
 }
 
@@ -66,7 +66,7 @@
 .block2 {
 	/*样式设置*/
 	padding:2%;
-	border: 4px solid gray;
+	border: 0.5vw solid gray;
 	border-radius: 20px;
 	width:100%;
 	height: auto;
@@ -98,14 +98,14 @@
 }
 
 .block2 h2{
-	font-size: 4.5vh;
+	font-size: 2.2vw;
 	color: #ee82ee;
 }
 
 .block3 {
 	/*样式设置*/
 	padding:2%;
-	border: 4px solid gray;
+	border: 0.5vw solid gray;
 	border-radius: 20px;
 	width:100%;
 	height: auto;
@@ -134,7 +134,7 @@
 }
 
 .block3 h2{
-	font-size: 4.5vh;
+	font-size: 2.2vw;
 	color:#40e0d0 ;
 }
 
@@ -148,7 +148,7 @@
 	
 	/*样式设置*/
 	padding:2%;
-	border: 4px solid gray;
+	border: 0.5vw solid gray;
 	border-radius: 20px;
 	width:100%;
 	height: auto;
@@ -181,6 +181,6 @@
 }
 
 .block4 h2{
-	font-size: 4.5vh;
+	font-size: 2.2vw;
 	color: #ffb6c1;
 }

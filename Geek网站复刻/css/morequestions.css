@@ -2,7 +2,7 @@
 	/*基本属性*/
 	margin: 0px;
 	padding:0px;
-	border: 1.8vh solid #6495ed;
+	border: 0.8vw solid #6495ed;
 	border-radius: 20px;
 	width: 80%;
 	height:auto;
@@ -11,7 +11,7 @@
 	/*位置*/
 	position: relative;
 	top:30rem;
-	left:120px;
+	left:10%;
 	
 	 overflow: hidden;
 	 
@@ -25,7 +25,7 @@
 	
 	z-index: 1;
 	font-weight:400;
-	font-size:7vh;
+	font-size:4vw;
 	user-select: none;
 }
 
@@ -34,9 +34,9 @@
 	margin: 8%;
 	top: 2%;
 	left: 17%;
-	width: 70%x;
+	width: 70%;
 	
-	font-size: 3.5vh;
+	font-size: 1.8vw;
 	user-select: none;
 }
 
@@ -62,12 +62,12 @@
 	padding: 1%;
 	border-radius: 8px;
 	background-color: cornflowerblue;
-	width: 50%;
+	width: 70%;
 	
 	/*导航栏文字竖直居中对齐*/
 	
 	color: white;
-	font-size: 2.5vh;
+	font-size: 1.1vw;
 	/*初始隐藏*/
 	display:none;
 }
@@ -90,12 +90,12 @@
 	padding: 1%;
 	border-radius: 8px;
 	background-color: cornflowerblue;
-	width: 50%;
+	width: 70%;
 	
 	/*导航栏文字竖直居中对齐*/
 	
 	color: white;
-	font-size: 2.5vh;
+	font-size: 1.1vw;
 	/*初始隐藏*/
 	display:none;
 }
@@ -118,12 +118,12 @@
 	padding: 1%;
 	border-radius: 8px;
 	background-color: cornflowerblue;
-	width: 50%;
+	width: 70%;
 	
 	/*导航栏文字竖直居中对齐*/
 	
 	color: white;
-	font-size: 2.5vh;
+	font-size: 1.1vw;
 	/*初始隐藏*/
 	display:none;
 }
@@ -146,12 +146,12 @@
 	padding: 1%;
 	border-radius: 8px;
 	background-color: cornflowerblue;
-	width: 50%;
+	width: 70%;
 	
 	/*导航栏文字竖直居中对齐*/
 	
 	color: white;
-	font-size: 2.5vh;
+	font-size: 1.1vw;
 	/*初始隐藏*/
 	display:none;
 }
@@ -174,12 +174,12 @@
 	padding: 1%;
 	border-radius: 8px;
 	background-color: cornflowerblue;
-	width: 50%;
+	width: 70%;
 	
 	/*导航栏文字竖直居中对齐*/
 	
 	color: white;
-	font-size: 2.5vh;
+	font-size: 1.1vw;
 	/*初始隐藏*/
 	display:none;
 }
@@ -202,12 +202,12 @@
 	padding: 1%;
 	border-radius: 8px;
 	background-color: cornflowerblue;
-	width: 50%;
+	width: 70%;
 	
 	/*导航栏文字竖直居中对齐*/
 	
 	color: white;
-	font-size: 2.5vh;
+	font-size: 1.1vw;
 	/*初始隐藏*/
 	display:none;
 }
@@ -230,12 +230,12 @@
 	padding: 1%;
 	border-radius: 8px;
 	background-color: cornflowerblue;
-	width: 50%;
+	width: 70%;
 	
 	/*导航栏文字竖直居中对齐*/
 	
 	color: white;
-	font-size: 2.5vh;
+	font-size: 1.1vw;
 	/*初始隐藏*/
 	display:none;
 }
