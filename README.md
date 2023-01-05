@@ -25,3 +25,7 @@
 #### 一、 [Python学习笔记](https://github.com/Zqxg/Tasks/blob/main/%E8%80%83%E6%A0%B8%E4%BA%94%20Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
 ## 考核六
+#### 一、 [小锅爬虫源码](https://github.com/Zqxg/Tasks/blob/main/Reptile/main.py)
+#### 二、 [Python爬虫笔记](https://github.com/Zqxg/Tasks/blob/main/python%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0.md)
+#### 三、 [爬取的图片文件](https://github.com/Zqxg/Tasks/tree/main/Reptile/pic_data)
+#### 四、 [爬取的文字文件](https://github.com/Zqxg/Tasks/tree/main/Reptile/text_data)
